@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #66fcf1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #0b0c10;
+    padding: 10px;
+}
+
+.navbar button {
+    background-color: #45a29e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar button:hover {
+    background-color: #66fcf1;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container img {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.text-box {
+    background-color: #16a085;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.section {
+    display: none;
+}
+
+.text-box table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.text-box table th, .text-box table td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+.text-box table th {
+    background-color: #2c3e50;
+}
+
+.text-box table td {
+    background-color: #34495e;
+}
+
+/* Estilos generales para la etiqueta de video */
+.container video {
+    width: 100%; /* Para que el video ocupe el ancho del contenedor */
+    max-width: 600px; /* Limita el tamaño máximo del video */
+    height: auto; /* Mantiene la proporción del video */
+    border-radius: 5px; /* Añade bordes redondeados */
+    margin-top: 20px; /* Espaciado superior para separarlo del texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    align-content: center;
+
+}
+
+/* Ajustes específicos para la sección de Eren */
+#eren .container video {
+    max-width: 500px; /* Tamaño específico para el video en la sección de Eren */
+}
